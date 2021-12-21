@@ -1,0 +1,88 @@
+main {
+    position: relative;
+
+    .jumbo_section {
+        height: 500px;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+
+    .cards_section {
+        background-color: $main_bg;
+
+        h1 {
+            color: $white;
+            background-color: $dc_blue;
+            font-family: $dc_narrow;
+            font-size: 26px;
+            padding: $padding_60 / 4 $padding_50 / 2;
+            position: absolute;
+            transform: translate(-20px, -50%);
+        }
+
+        .dc_card {
+         
+
+            .card_img {
+                height: 100px;
+                object-fit: cover;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .dc_card_txt {
+                color: $white !important;
+                font-family: $dc_normal;
+                font-size: $text_14;
+                text-transform: uppercase;
+                text-align: start;
+            }
+        }
+
+        button {
+            color: $white;
+            background-color: $dc_blue;
+            font-family: $dc_narrow;
+            font-size: 14px;
+            font-weight: 700;
+            padding: $padding_60 / 5 $padding_60;
+            border: none;
+        }
+    }
+
+    .buy-section {
+        background-color: $dc_blue;
+        ul {
+            justify-content: space-around;
+            color: $white;
+            list-style: none;
+            a {
+                color: white;
+                text-decoration: none;
+                align-items: center;
+                color: $white;
+                .footer-card {
+                    width: 80px;
+                    height: 65px;
+                }
+                h3 {
+                    font-size: $text_14;
+                    font-family: $dc_normal;
+                    font-weight: 500;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+}

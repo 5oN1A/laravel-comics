@@ -1,0 +1,34 @@
+header {
+    background-color: $white;
+    padding-top: $padding_60 / 6;
+    padding-bottom: $padding_60 / 6;
+    .container {
+        align-items: center;
+        img {
+            width: 80px;
+        }
+        nav {
+            flex-grow: 1;
+            ul {
+                justify-content: end;
+                list-style: none;
+                font-family: $dc_narrow;
+                font-weight: 800;
+                li {
+                    color: $nav_text;
+
+
+                    &.active a{
+                        color: $dc_blue;
+                    }
+                    
+                    a {
+                        font-size: $text_14;
+                        text-decoration: none;
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,215 @@
+header {
+  background-color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header .container {
+  align-items: center;
+}
+
+header .container img {
+  width: 80px;
+}
+
+header .container nav {
+  flex-grow: 1;
+}
+
+header .container nav ul {
+  justify-content: end;
+  list-style: none;
+  font-family: Arial Narrow, sans-serif;
+  font-weight: 800;
+}
+
+header .container nav ul li {
+  color: #6D536E;
+}
+
+header .container nav ul li.active a {
+  color: #0082F9;
+}
+
+header .container nav ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 15px;
+}
+
+main {
+  position: relative;
+}
+
+main .jumbo_section {
+  height: 500px;
+  overflow: hidden;
+}
+
+main .jumbo_section img {
+  width: 100%;
+}
+
+main .cards_section {
+  background-color: #1C1C1C;
+}
+
+main .cards_section h1 {
+  color: #FFFFFF;
+  background-color: #0082F9;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 26px;
+  padding: 15px 25px;
+  position: absolute;
+  transform: translate(-20px, -50%);
+}
+
+main .cards_section .dc_card .card_img {
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+main .cards_section .dc_card .card_img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .cards_section .dc_card .dc_card_txt {
+  color: #FFFFFF !important;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: start;
+}
+
+main .cards_section button {
+  color: #FFFFFF;
+  background-color: #0082F9;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 60px;
+  border: none;
+}
+
+main .buy-section {
+  background-color: #0082F9;
+}
+
+main .buy-section ul {
+  justify-content: space-around;
+  color: #FFFFFF;
+  list-style: none;
+}
+
+main .buy-section ul a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+main .buy-section ul a .footer-card {
+  width: 80px;
+  height: 65px;
+}
+
+main .buy-section ul a h3 {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+}
+
+main .buy-section ul a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-right: 20px;
+}
+
+footer {
+  position: relative;
+}
+
+footer .logo_bg {
+  position: absolute;
+  right: 14%;
+  top: 60px;
+  width: 630px;
+}
+
+footer .section_2 {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+}
+
+footer .section_2 .container {
+  background-image: url("/img/dc-logo-bg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+footer .section_2 .container h3 {
+  color: #FFFFFF;
+  font-family: Arial Narrow, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer .section_2 .container ul {
+  list-style: none;
+}
+
+footer .section_2 .container ul a {
+  text-decoration: none;
+  color: #797979;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  line-height: 22px;
+}
+
+footer .section_3 {
+  background-color: #303030;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer .section_3 .container {
+  align-items: center;
+}
+
+footer .section_3 .container .sign_up_button {
+  border: 2px solid #0082F9;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 55px;
+  padding: 0 15px;
+}
+
+footer .section_3 .container .social_section {
+  flex-grow: 1;
+  justify-content: end;
+  align-items: center;
+}
+
+footer .section_3 .container .social_section h3 {
+  color: #0082F9;
+  font-family: Arial Narrow, sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  padding-right: 30px;
+}
+
+footer .section_3 .container .social_section img {
+  padding-right: 15px;
+  width: 55px;
+}
+
